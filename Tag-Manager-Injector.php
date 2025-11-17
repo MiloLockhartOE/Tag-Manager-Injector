@@ -23,7 +23,7 @@ function custom_gtm_head_snippet() {
 	}
 	?>
 
-```
+
 <!-- Google Tag Manager -->
 <script>
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -71,3 +71,4 @@ add_action( 'wp_footer', 'custom_gtm_fallback_body_open', -9999 );
 
 
 ?>
+
