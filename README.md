@@ -9,6 +9,27 @@ Usage
 - Enter your GTM container ID (example: `GTM-ABC1234`) and save.
 - Visit the front-end, view page source, and search for `gtm.js?id=` to confirm the container ID is present. The noscript iframe will also include the ID.
 
+
+Installation
+-----
+
+Easiest method (recommended)
+----------------------------
+
+- Download the repository ZIP from GitHub (Code → Download ZIP) or use the archive link:
+
+	https://github.com/MiloLockhartOE/Tag-Manager-Injector/archive/refs/heads/main.zip
+
+- In your WordPress admin, go to Plugins → Add New → Upload Plugin.
+- Choose the downloaded ZIP file and click Install Now, then Activate.
+
+Notes
+-----
+
+- WordPress expects the plugin file (`Tag-Manager-Injector.php`) to live at the top level inside the plugin folder. If the downloaded ZIP contains an extra nested folder (for example `Tag-Manager-Injector-main/Tag-Manager-Injector/`), extract locally and re-zip only the `Tag-Manager-Injector` folder before uploading.
+- After activation, configure the GTM ID at Settings → Tag Manager Injector.
+
+
 Notes
 -----
 
