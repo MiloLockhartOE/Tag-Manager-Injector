@@ -4,8 +4,6 @@
  * Description: Safely injects Google Tag Manager snippets into the site without third-party plugins.
  * Version:     1.0.0
  * Author:      Milo Lockhart
- * License:     GPL-2.0+
- * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
 // Prevent direct access.
@@ -187,4 +185,5 @@ function tmi_render_settings_page() {
 
 
 ?>
+
 
