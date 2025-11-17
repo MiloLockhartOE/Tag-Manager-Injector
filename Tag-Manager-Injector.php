@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Custom Google Tag Manager Injector
- * Description: Safely injects Google Tag Manager (GTM-MDT8FVV) snippets into the site without third-party plugins.
+ * Description: Safely injects Google Tag Manager snippets into the site without third-party plugins.
  * Version:     1.0.0
  * Author:      Milo Lockhart
  * License:     GPL-2.0+
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // === CONFIGURATION === //
-define( 'MY_GTM_ID', 'GTM-MDT8FVV' ); // Replace with your container ID if needed.
+define( 'MY_GTM_ID', 'GTM_ID' ); // Replace with your container ID if needed.
 
 // === GTM HEAD SNIPPET === //
 function custom_gtm_head_snippet() {
@@ -57,6 +57,7 @@ add_action( 'wp_footer', 'custom_gtm_body_snippet', 0 );
 }
 }
 add_action( 'wp_footer', 'custom_gtm_fallback_body_open', -9999 );
+
 
 
 
